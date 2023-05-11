@@ -20,6 +20,7 @@ footer {
   color: #f9faf8;
 }
 nav li,
+#hero p,
 footer {
   font-size: 18px;
   color: #e5f7eb;
@@ -77,6 +78,34 @@ nav ul {
   background-color: goldenrod;
   width: 500px;
   height: 250px;
+}
+
+#info {
+  text-align: center;
+}
+#info h1 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 1000;
+  margin: 50px 0;
+}
+#info > div {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 80px;
+}
+.img-container img {
+  border: 5px solid #3882f6;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+.img-container p {
+  max-width: 175px;
+  color: #6c7480;
+  font-size: 18px;
+  margin-top: 5px;
 }
 
 footer {
