@@ -1,0 +1,41 @@
+/* reset default styles */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+nav li {
+  font-size: 18px;
+  color: #e5f7eb;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  height: 60px;
+  margin: 0 auto;
+}
+nav h1 {
+  font-size: 24px;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  /* reset default styles */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
