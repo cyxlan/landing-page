@@ -108,6 +108,26 @@ nav ul {
   margin-top: 5px;
 }
 
+#quote {
+  background-color: #e5e7eb;
+}
+#quote div {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 80px 0;
+}
+.quote-text {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1f2937;
+}
+.quote-author {
+  font-weight: 800;
+  font-size: 24px;
+  text-align: right;
+}
+
 footer {
   display: flex;
   justify-content: center;
