@@ -76,11 +76,6 @@ nav ul {
   /* reset default style */
   border: none;
 }
-#hero img {
-  background-color: goldenrod;
-  width: 500px;
-  height: 250px;
-}
 
 #info {
   text-align: center;
@@ -100,8 +95,6 @@ nav ul {
 .img-container img {
   border: 5px solid #3882f6;
   border-radius: 20px;
-  width: 150px;
-  height: 150px;
 }
 .img-container p {
   max-width: 175px;
